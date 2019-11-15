@@ -26,10 +26,8 @@
 /* Begin PBXFileReference section */
 		BC0B5FF5237BD3DB001B0A5E /* ZeroMQClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZeroMQClient; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0B5FF8237BD3DB001B0A5E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		BC0B6032237BE18C001B0A5E /* zmq_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq_utils.h; sourceTree = "<group>"; };
 		BC0B6033237BE18C001B0A5E /* zmq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmq.h; sourceTree = "<group>"; };
 		BC0B6034237BE1A1001B0A5E /* libzmq.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libzmq.5.dylib; sourceTree = "<group>"; };
-		BC0B6035237BE1A1001B0A5E /* libzmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzmq.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 		BC0B5FF7237BD3DB001B0A5E /* ZeroMQClient */ = {
 			isa = PBXGroup;
 			children = (
-				BC0B6032237BE18C001B0A5E /* zmq_utils.h */,
 				BC0B6033237BE18C001B0A5E /* zmq.h */,
 				BC0B5FF8237BD3DB001B0A5E /* main.c */,
 			);
@@ -75,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				BC0B6034237BE1A1001B0A5E /* libzmq.5.dylib */,
-				BC0B6035237BE1A1001B0A5E /* libzmq.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
